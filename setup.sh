@@ -94,6 +94,9 @@ pacman -S --needed --noconfirm \
 	#iwd
 
 # ip link set wlan0 up
+#mkdir -p /etc/iwd
+#printf '[General]\nEnableNetworkConfiguration=true\n\n[Network]\nNameResolvingService=systemd\n' | tee /etc/iwd/main.conf
+#sudo systemctl restart iwd
 
 chown -R hadean:hadean /home/hadean
 
