@@ -46,3 +46,7 @@ echo "[zram0]" > /etc/systemd/zram-generator.conf
 echo "EDITOR=micro" >> /etc/environment
 ufw enable
 systemctl enable ufw
+
+pacman -S --needed --noconfirm seatd sway foot
+systemctl enable --now seatd
+usermod -aG seat hadean
