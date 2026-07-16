@@ -67,7 +67,7 @@ pacman -S --needed --noconfirm \
 	gst-plugin-pipewire \
 	libpulse \
 	# sound done
-      	brightnessctl \
+     	brightnessctl \
 	grim \
 	slurp \
 	xorg-xwayland
