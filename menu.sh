@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# archinstoo live mode
 # meant to be run as:
 # `bash <(curl -sSL <url>)`
 
