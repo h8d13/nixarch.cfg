@@ -57,7 +57,6 @@ pacman -S --needed --noconfirm \
 	seatd \
 	sway \
 	foot \
-	# essentials done
 	pipewire-pulse \
 	wireplumber \
 	sof-firmware \
@@ -66,7 +65,6 @@ pacman -S --needed --noconfirm \
 	pipewire-jack \
 	gst-plugin-pipewire \
 	libpulse \
-	# sound done
 	brightnessctl \
 	grim \
 	slurp \
